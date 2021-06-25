@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  width: 1440px;
+  height: 127px;
+  background-color: #1A212C;
+}
+
+.header__logo {
+  margin-top: 19px;
+  margin-left: 74px;
+  margin-right: 0;
+}
+
+.header__nav {
+  margin-top: 51px;
+  margin-left: 41px;
+}
+
+a {
+  margin-left: 74px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 141.4%;
+  opacity: .5;
+}
+a:hover {
+  opacity: 1;
+}
+
+a:first-child {
+  margin-left: 0;
+}
+
+.header__phone {
+  margin-left: 104px;
+  margin-top: 51px;
+}

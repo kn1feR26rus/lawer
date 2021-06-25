@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+section {
+  height: 953px;
+  width: 1440px;
+  border: 0;
+}
+
+.intro-content {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../../assets/intro.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+}
+
+.intro-block {
+  margin-top: 380px;
+  margin-left: 70px;
+  margin-bottom: 150px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 26px;
+  width: 640px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+  width: 509px;
+  margin-bottom: 26px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+input {
+  width: 303px;
+  height: 69px;
+  background: linear-gradient(94.49deg, #D3C57B 33.49%, #7A6D2A 100%);
+  box-shadow: 0px 15px 30px rgba(212, 197, 124, 0.3);
+  border-radius: 6px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 151.4%;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+}
+
+.score-box {
+  width: 285px;
+  height: 357px;
+  background: #1E2737;
+  border: 1px solid #847633;
+  box-sizing: border-box;
+  margin-left: 14px;
+  text-align: center;
+}
+
+.score-box:first-child {
+  margin-left: 41px;
+}
+
+.score-box__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.score-box__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 90px;
+}
+
